@@ -1,0 +1,201 @@
+/*<style type="text/css">*/
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa:400,700|Asul:400,700&display=swap');
+
+body{
+	background-color: #505050;
+	color: red;
+	margin: 0;
+	padding: 0;
+} .page{
+	box-sizing: border-box;
+	background-color: #ffffff;
+	margin: .5pc auto;
+	max-width: 64pc;
+	padding: 4pc;
+} .menuLeft{
+	box-sizing: border-box;
+	position: fixed;
+	left: 0;
+	top: 0;
+	text-indent: 0;
+	margin: 0;
+	padding: 0pc .5pc 0pc;
+	background-color: #fffaf7;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+	width: 200px;
+} .menuLeft h1,.menuLeft h2,.menuLeft h3,.menuLeft h4 {
+	color: #423a27;
+	font-size: 11pt;
+	margin: 0.4pc 0;
+	padding: 0;
+	text-align: left;
+	line-height: 100%;
+	font-weight: bold;
+	font-family: "Asul", serif;
+} .menuLeft a {
+	text-decoration: none;
+} .menuLeft h1 {
+	background-color: #423a27;
+	color: #fffaf7;
+	border-radius: 20px;
+	padding: 2pt 6pt 2pt;
+	margin-left:0pc;
+} .menuLeft h2 {
+	margin-left:1pc;
+} .menuLeft h3 {
+	margin-left:2pc;
+} .menuLeft h4 {
+	margin-left:3pc;
+	font-weight: normal;
+}
+
+table{
+	table-layout: fixed;
+	margin: 0pc 2pc;
+	color: #303030;
+	font-size: 11pt;
+	font-family: "Asul", serif;
+	border-collapse: collapse;
+} td, th{
+	padding: 2pt 4pt;
+	border-style: solid none;
+	border-color: #d9d9d9;
+	border-width: 1pt;
+	text-align: left;
+} thead th{
+	color: #ffffff;
+	background-color: #9F8E58;
+	font-weight: bold;
+	vertical-align: top;
+} tbody td,tbody th{
+	background-color: #fff9e6;
+	font-weight: normal;
+}
+
+table.mainTable{
+	table-layout: fixed;
+} table.mainTable td:nth-child(3) {
+	width:100%;
+}
+
+ol,ul{
+	list-style-type: none;
+	padding:0;
+} li{
+}
+
+p,ol,ul{
+	margin: 6pt 0pt 4pt;
+	color: #303030;
+	font-size:	11pt;
+	font-family: "Asul", serif;
+	text-indent: 2pc;
+}
+
+.note {
+	font-family: "aref ruqaa";
+	font-style: italic;
+	text-align: center;
+	text-indent: 0;
+	margin: 1pc;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0pc 1pc 0pc;
+	padding: 0pc;
+	font-weight: bold;
+}
+
+/*h1+h2,h2+h3,h3+h4,h4+h5,h5+h6 {
+	margin-top: .5pc;
+}*/
+.page .title{
+	text-shadow: 2px 2px 4px #ffffffff;
+	text-decoration: underline;
+}
+
+h1{
+	color:#B52A12;
+	margin-top:	16pt;
+	font-size:	32pt;
+	font-family: 'Aref Ruqaa', serif;
+	text-align: center;
+}
+
+h2{
+	color:#303030;
+	margin-top:	12pt;
+	font-size:	24pt;
+	font-family: 'Aref Ruqaa', serif;
+}
+
+h3 {
+	color:#85200c;
+	margin-top:	8pt;
+	font-size:	16pt;
+	font-family: 'Aref Ruqaa', serif;
+}
+
+h4 {
+	color:#303030;
+	margin-top:	6pt;
+	font-size:	12pt;
+	font-weight: bolder;
+	font-family: 'Aref Ruqaa', serif;
+} h2+h4 {
+	margin-top: 2pt;
+}
+
+
+
+div.smapleSpirits {
+	column-count: 2;
+	column-gap: 0pc;
+	margin-top:	6pt;
+	margin-left: 2pc;
+} div.smapleSpirits h5 {
+	color: #847750;
+	font-size:	12pt;
+	font-weight: bolder;
+} div.smapleSpirits ul,li {
+	text-indent: 0;
+	margin-top:	0;
+} 
+
+.sidebar {
+	float: right;
+	width: 35%; 
+	margin: .5pc;
+} .sidebar h3,.sidebar h4 {
+	text-align: center;
+	color: #85200c;
+	margin: 0;
+} .sidebar p {
+	padding: 0;
+	margin: 0;
+} .sidebar .sbBody {
+	border-style: solid none solid;
+	border-color: #85200c;
+	border-radius: 1.5pc;
+	margin: 0;
+	padding: 1pc .5pc;
+}
+
+.sidebar2 {
+	margin: .5pc;
+} .sidebar2 h3,.sidebar2 h4 {
+	text-align: center;
+	color: #85200c;
+	margin: 0;
+} .sidebar2 p {
+	padding: 0;
+	margin: 0;
+} .sidebar2 .sbBody {
+	border-style: solid none solid;
+	border-color: #85200c;
+	border-radius: 1.5pc;
+	margin: 0;
+	padding: 1pc .5pc;
+}
