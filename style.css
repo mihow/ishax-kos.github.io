@@ -74,13 +74,19 @@ table{
 	font-weight: normal;
 }
 
-table.mainTable{
+.mainTable thead tr:nth-child(1) th{
+	text-align: left;
+}
+.mainTable td, .mainTable th{
 	table-layout: fixed;
-} table.mainTable td:nth-child(3) {
+	text-align: center;
+}
+.wideCell3 :nth-child(3){
 	width:100%;
+	text-align: left;
 }
 
-ol,ul{
+.hiddenList ol, .hiddenList ul{
 	list-style-type: none;
 	padding:0;
 } li{
@@ -94,12 +100,23 @@ p,ol,ul{
 	text-indent: 2pc;
 }
 
-.note {
+.titlenote {
 	font-family: "aref ruqaa";
 	font-style: italic;
 	text-align: center;
 	text-indent: 0;
 	margin: 1pc;
+}
+.note {
+	font-family: "aref ruqaa";
+	font-style: italic;
+	text-indent: 0;
+}
+.prereq {
+	font-family: "aref ruqaa";
+	font-style: italic;
+	font-weight: bold;
+	text-indent: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
