@@ -86,7 +86,7 @@ table{
 	text-align: left;
 }
 
-.hiddenList ol, .hiddenList ul{
+.hiddenList>ol, .hiddenList>ul{
 	list-style-type: none;
 	padding:0;
 } li{
