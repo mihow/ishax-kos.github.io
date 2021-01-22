@@ -1,6 +1,3 @@
-[submodule "homebrew\\class_medium"]
-	path = homebrew\\class_medium
-	url = https://github.com/ishax-kos/Medium5e.git
 [submodule "Medium5e"]
 	path = Medium5e
 	url = https://github.com/ishax-kos/Medium5e
