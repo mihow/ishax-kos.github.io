@@ -1,0 +1,3 @@
+[submodule "homebrew\\medium"]
+	path = homebrew\\medium
+	url = https://github.com/ishax-kos/Medium5e.git
