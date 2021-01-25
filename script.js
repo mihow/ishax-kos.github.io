@@ -15,7 +15,7 @@ function adjust() {
 		size -= 18;
 	}
 	
-	document.querySelector(".menuChapter").style.cssText = 
+	document.querySelector(".sideMenu").style.cssText = 
 		"width: "+ (size) +"px; visibility:"+ vis +";";
 		
 	//requestAnimationFrame(adjust);
