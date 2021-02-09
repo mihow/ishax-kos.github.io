@@ -15,32 +15,7 @@
             Feel free to <a id=suggestions href=https://github.com/ishax-kos/Medium5e/issues/new/choose>make a suggestion</a>! I'm not perfect. I don't want to outshine warlock entirely if I can help it.
         </p>
 	</div>
-<div class=page>{% block page %}<div>Peepee poopoo</div>{% endblock %}</div>
+<div class=page>{% content %}</div>
 <script src= "script.js" > </script>
-
-
-
-{{ page.childcount }}
-{% for item in page.children %}
-{{ item }}
-{% endfor %}
-<!-- function load() {
-    var headings = document.querySelectorAll("h1,h2,h3,h4");
-    var navList = document.querySelector("#navList");
-    var n = "";
-    for (i = 0; i < headings.length; i++) {
-        if (headings[i].id == "") {
-            n = headings[i].innerHTML;
-            headings[i].id = "r"+i;
-        } else {
-            n = headings[i].id
-        }
-        if (headings[i].className != "nullMenu") {
-            navList.innerHTML += "<a href=\"#"+ headings[i].id +"\"><"+ headings[i].tagName +">"+
-            n 
-            +"</"+ headings[i].tagName +"></a>";
-        }
-    }
-} load(); -->
 </body>
 </html>
