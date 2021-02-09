@@ -1,0 +1,6 @@
+/preprocessor
+*.exe
+*.o
+*.obj
+*.lst
+config.yml
