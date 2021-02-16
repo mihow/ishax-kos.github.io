@@ -103,6 +103,11 @@ table{
 	text-align: left;
 }
 
+.theadCompressed th{
+	padding: 0;
+}
+
+
 .hiddenList>ol, .hiddenList>ul{
 	list-style-type: none;
 	padding:0;
