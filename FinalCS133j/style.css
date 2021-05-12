@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(40, 62, 85);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font: 18pt Cambria;
+}
+
+body>div {
+    display: inline-block;
+    width: 500;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    font: 4pc Cambria;
+    font-weight: bold;
+    color: #fff;
+    background-color: #555;
+    margin: 0;
+}
+
+td, th {
+    padding: 1pc;
+    background-color: #fff3;
+}
+
+.bottom_content div {
+    padding: 0pc;
+}
+
+table {
+    float: left;
+    display: block;
+    padding-right: 2pc;
+}
+
+canvas {
+    display: inline-block;
+    background-color: #555;
+    margin-top: 1pc;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+}
+.modal_content {
+    margin: -50% auto;
+    width: 50%;
+    background-color: #555;
+    padding: 2pc;
+    border: 5pt solid wheat;
+    color: wheat;
+    border-radius: 2pc;
+    font-weight: bold;
+    font-size: 50;
+    box-shadow: 0px 10px 20px #000A;
+}
