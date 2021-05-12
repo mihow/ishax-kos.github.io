@@ -4,3 +4,5 @@
 *.obj
 *.lst
 config.yml
+_site
+.jekyll-cache
