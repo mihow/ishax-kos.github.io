@@ -298,7 +298,7 @@
                     }
                 } break
 
-                case 222: case 528: if (delta > 0) { // key Lshift (Attack) is pressed
+                case 32: case 528: if (delta > 0) { // key Lshift (Attack) is pressed
                     console.log("stab input");
                     if (this.behavior != this.bhv_stab) {
                         this.behavior = this.bhv_stab;
