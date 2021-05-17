@@ -1,2 +1,2 @@
-# medium-5e
-A homebrew class for dungeons and dragons 5th edition.
+# My Website
+A little place where I host real cool stuff, and dissapoint my web teacher by not including a nav menu.
